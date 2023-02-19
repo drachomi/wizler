@@ -22,27 +22,25 @@ The following endpoints are available:
 
 **Books**
 
-GET /V1/books Retrieves all books in the database.
+GET /books Retrieves all books in the database.
 
 POST /books - Adds a new book to the database.
 
-DELETE /books/{id} - Deletes a book by ID.
+DELETE /books/ - Deletes a book by ID.
 
-GET /books/{id} - Retrieves a book by ID.
 
-PUT /books/{id} - Updates a book by ID.
+PUT /books/ - Updates a book by ID.
 
 **Category**
 
 GET /category - Retrieves all categories in the database.
 
-GET /category/{id} - Retrieves a category by ID.
 
 POST /category - Adds a new category to the database.
 
-PUT /category/{id} - Updates a category by ID.
+PUT /category/ - Updates a category by ID.
 
-DELETE /category/{id} - Deletes a category by ID.
+DELETE /category/ - Deletes a category by ID.
 
 Request and Response Formats
 GET Requests
